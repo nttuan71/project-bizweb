@@ -1,0 +1,823 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <title>BizWeb</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
+   <link href="css/font-awesome.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/slidersp.css" rel="stylesheet">
+   <link href="css/chitiet.css" rel="stylesheet">
+   <link href="css/cloudzoom.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <script src="js/jquery.min.js"></script>
+   <link href="css/cloudzoom.css" type="text/css" rel="stylesheet">
+   <script type="text/javascript" src="js/cloudzoom.js"></script>
+   <script type="text/javascript" src="js/thumbelina.js"></script>
+</head>
+<body>
+   <div class="container-biz">
+      <div class="top-header">
+         <div class="container">
+            <div class="row">
+               <div class="hidden-xs col-sm-8">
+                  <div class="hotline_top">
+                     <img src="image/icondienthoai.png">
+                     <span>Tư vấn 24/7:</span>
+                     <p>(04) 6674 2332</p>
+                  </div>
+                  <p class="diachi_header"><span>Địa chỉ:</span> 442 Đội Cấn, Ba Đình , Hà Nội</p>
+               </div>
+               <div class="col-xs-12 col-sm-4 text-right">
+                  <!-- <a class="listwant" href="#">Danh sách mong muốn</a> -->
+                  <div class="mini-cart dropdown box-cart cart">
+                     <a href="#" class="dropdown-toggle basket" data-toggle="dropdown" data-hover="dropdown">
+                        <img src="image/icon_minicart.png"> Giỏ hàng
+                        <span id="cart-total">0</span>
+                     </a>
+                     <div class="top-cart-content arrow_box cart-info dropdown-menu" id="cart-info">
+                        <div>
+                           <br>
+                           <center>Giỏ hàng của bạn hiện đang trống.</center>
+                           <br>
+                        </div>
+                     </div>
+                  </div>
+                  <ul class="list-inline account pull-right">
+                                 <!-- <li class="menu-cart hidden-md visible-xs hidden-lg shopping-cart-box">
+                                    <a href="#"><span class="cart-box" id="cart-total"><strong>0</strong></span></a>
+                                    <a href="#" title="Viet Nam" class="select_store_lang" lang_iso="VN" rel="1169">
+                                       <img src="http://demo101.websieuviet.com/theme/frontend/default/style/default/image/new/flags/vn.png" alt="VN" title="VN" width="25" class="v_middle">
+                                    </a>
+                                 </li> -->
+                                 <li class="shopping-cart-box">
+                                    <a href="#" title="Viet Nam" class="select_store_lang" lang_iso="VN" rel="1169">
+                                       <img src="http://demo101.websieuviet.com/theme/frontend/default/style/default/image/new/flags/vn.png" alt="VN" title="VN" width="25" class="v_middle">
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--top header-->
+                  <!-- menu dt -->
+                  <nav class="navbar navbar-default visible-xs navmar" role="navigation">
+                     <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                              <span class="sr-only">Menu</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                           </button>
+                           <a title="Megashop" href="/" class="navbar-brand">
+                              <img alt="Megashop" src="image/logo.png" class="img-responsive">
+                           </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                           <ul class="nav navbar-nav list-cate-banner">
+                              <li class="active"><a href="#">Trang Chủ</a></li>
+                              <li><a href="#">Giới Thiệu</a></li>
+                              <li class="dropdown">
+                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sản Phẩm </a>
+                                 <ul class="dropdown-menu" style="display: none">
+                                    <li><a href="#">Phòng Khách</a></li>
+                                    <li><a href="#">Phòng Ngủ</a></li>
+                                    <li><a href="#">Sofa</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="#">Tin Tức</a></li>
+                              <li><a href="#">Liên Hệ</a></li>
+                           </ul>
+
+                        </div>
+                        <!-- /.navbar-collapse -->
+                     </div>
+                     <!-- /.container-fluid -->
+                  </nav>
+                  <div class="clearfix"></div>
+                  <!-- menu sm md lg -->
+                  <div class="menu-header fixmenu">
+                     <div class="container">
+                        <nav class="navbar menumain hidden-xs">
+                           <a title="Logo" href="#" class="navbar-left" >
+                              <img alt="Megashop" class="img-responsive" src="image/logo.png">
+                           </a>
+                           <div class="navbar-collapse collapse navbar-left">
+                              <ul class="nav navbar-nav">
+                                 <li class="active"><a href="/">Trang chủ</a></li>
+                                 <li><a href="/gioi-thieu">Giới thiệu</a></li>
+                                 <li class="dropdown ">
+                           <!-- <a href="/collections/all">Sản phẩm
+                           <i class="caret pull-right" aria-hidden="true"></i></a> -->
+                           <a href="#">Sản phẩm <i class="caret" aria-hidden="true"></i></a>
+                           <ul class="dropdown-menu sub1">
+                              <div class="col-xs-12 col-sm-8">
+                                 <div class="row">
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/product.html">Phòng khách</a>
+                                       <ul class="sub2">
+                                          <li>
+                                             <a href="/ban-ghe-go">Bàn ghế gỗ</a>
+                                          </li>
+                                          <li>
+                                             <a href="/sofa-phong-khach">Sofa phòng khách</a>
+                                          </li>
+                                          <li>
+                                             <a href="/tu-de-giay">Tủ để giày</a>
+                                          </li>
+                                          <li>
+                                             <a href="/tu-ruou">Tủ rượu</a>
+                                          </li>
+                                          <li>
+                                             <a href="/vach-ngan">Vách ngăn</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/phong-ngu">Phòng ngủ</a>
+                                       <ul class="sub2">
+                                          <li>
+                                             <a href="/giuong-ngu">Giường ngủ</a>
+                                          </li>
+                                          <li>
+                                             <a href="/ke-tivi">Kệ tivi</a>
+                                          </li>
+                                          <li>
+                                             <a href="/ban-trang-diem">Bàn trang điểm</a>
+                                          </li>
+                                          <li>
+                                             <a href="/ban-lam-viec">Bàn làm việc</a>
+                                          </li>
+                                          <li>
+                                             <a href="/tu-quan-ao">Tủ quần áo</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/sofa">Sofa</a>
+                                       <ul class="sub2">
+                                          <li>
+                                             <a href="/sofa-da">Sofa da</a>
+                                          </li>
+                                          <li>
+                                             <a href="/sofa-cafe">Sofa cafe</a>
+                                          </li>
+                                          <li>
+                                             <a href="/sofa-giuong">Sofa giường</a>
+                                          </li>
+                                          <li>
+                                             <a href="/sofa-phong-khach-1">Sofa nghỉ</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/phong-bep">Phòng bếp</a>
+                                       <ul class="sub2">
+                                          <li>
+                                             <a href="/tu-bep">Tủ bếp</a>
+                                          </li>
+                                          <li>
+                                             <a href="/ban-ghe-an">Bàn ghế ăn</a>
+                                          </li>
+                                          <li>
+                                             <a href="/quay-bar">Quầy bar</a>
+                                          </li>
+                                          <li>
+                                             <a href="/phu-kien-bep">Phụ kiện bếp</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/phong-tre-em">Phòng trẻ em</a>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/thiet-bi-bep">Thiết bị bếp</a>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/thiet-bi-ve-sinh">Thiết bị vệ sinh</a>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/do-trang-tri">Đồ trang trí</a>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/phu-kien-bep">Phụ kiện bếp</a>
+                                    </li>
+                                    <li class=" col-xs-12 col-sm-6">
+                                       <a href="/nha-thong-minh">Nhà thông minh</a>
+                                    </li>
+                                 </div>
+                              </div>
+                              <div class="col-xs-12 col-sm-4 hidden-xs">
+                                 <div class="box-bestseller">
+                                    <div class="title_bestseller">
+                                       Sản phẩm nổi bật
+                                    </div>
+                                    <div class="body_bestseller">
+                                       <div class="bestseller_one biz-qv-image">
+                                          <a href="/tu-quan-ao-hien-dai" title="Tủ quần áo hiện đại" class="bestseller_one_img">
+                                             <img src="image/sp1.jpg" alt="Tủ quần áo hiện đại">
+                                          </a>
+                                          <h3 class="bestseller_one_name">
+                                             <a href="/tu-quan-ao-hien-dai" title="Tủ quần áo hiện đại">
+                                                Tủ quần áo hiện đại
+                                             </a>
+                                          </h3>
+                                          <p class="bestseller_one_price">
+                                             <span class="price-new">1.800.000₫</span>
+                                          </p>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                       <div class="bestseller_one biz-qv-image">
+                                          <a href="/den-trang-tri" title="Đèn trang trí" class="bestseller_one_img">
+                                             <img src="image/sp2.jpg" alt="Đèn trang trí">
+                                          </a>
+                                          <h3 class="bestseller_one_name">
+                                             <a href="/den-trang-tri" title="Đèn trang trí">
+                                                Đèn trang trí
+                                             </a>
+                                          </h3>
+                                          <p class="bestseller_one_price">
+                                             <span class="price-new">560.000₫</span>
+                                          </p>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                       <div class="bestseller_one biz-qv-image">
+                                          <a href="/tu-quan-ao-co-dien-3-ngan" title="Tủ quần áo cổ điển,3 ngăn" class="bestseller_one_img">
+                                             <img src="image/sp3.jpg" alt="Tủ quần áo cổ điển,3 ngăn">
+                                          </a>
+                                          <h3 class="bestseller_one_name">
+                                             <a href="/tu-quan-ao-co-dien-3-ngan" title="Tủ quần áo cổ điển,3 ngăn">
+                                                Tủ quần áo cổ điển,3 ngăn
+                                             </a>
+                                          </h3>
+                                          <p class="bestseller_one_price">
+                                             <span class="price-new">23.000.000₫</span>
+                                          </p>
+                                          <div class="clearfix"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="clearfix"></div>
+                           </ul>
+                        </li>
+                        <li><a href="/thiet-ke-noi-that">Thiết kế</a></li>
+                        <li><a href="/tin-tuc">Tin tức</a></li>
+                        <li><a href="/lien-he">Liên hệ</a></li>
+                     </ul>
+                     <!-- <button type="submit" class="btn btn-default search1 hidden-xs hidden-md hidden-lg"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></button> -->
+                     <div id="search_block_top" class="hidden-xs hidden-md hidden-lg">
+                        <span id="search-icon" class="fa fa-search" title=""><span id="transmark"></span></span>
+                        <form name="search"  class="popup-content" id="searchbox" method="post" action="#" onsubmit="search_product('http://demo155.websieuviet.com/store/search'); return false;">
+                           <div><input name="core[security_token]" value="0826d21266aba06ae834bf6032b87ea8" type="hidden"></div>
+                           <input id="q" class="search_query form-control" name="q" value="" placeholder="Tìm Kiếm..." aria-label="Tìm Kiếm..." type="search">
+                           <button id="search_button" class="btn btn-sm" type="submit">
+                              <span><i class="fa fa-search"></i></span>
+                              <span class="fallback-text">Tìm Kiếm</span>
+                           </button>
+                        </form>
+                     </div>
+                  </div>
+               </nav>
+               <form action="/search" method="get" class="navbar-form navbar-search navbar-right hidden-sm" id="search_mini_form">
+                  <input id="search" name="query" placeholder="Nhập thông tin cần tìm kiếm tại đây" class="search-query " maxlength="128" type="text">
+                  <button type="submit" class="btn btn-default search2"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></button>
+               </form>
+            </div>
+         </div>
+         <script type="text/javascript" charset="utf-8" async defer>
+            $(document).ready(function() {
+             $("#search_block_top").each(function() {
+                $("#search-icon").click(function() {
+                 $("#searchbox").toggleClass("show");
+              });
+             });
+          });
+       </script>
+       <script>
+         $(document).ready(function(){
+           $(window).scroll(function(){
+             if($(this).scrollTop() > 150){
+               $('.menu-header').addClass('fixmenu');
+            } else{
+               $('.menu-header').removeClass('fixmenu');
+            }
+         })
+        })
+     </script>
+  </div>
+  <div class="clearfix"></div>
+</div>
+</div>
+<!-- San Pham -->
+<div class="page-ct">
+   <div class="container">
+      <!--breadcrumbs-->
+      <div class="breadcrumbs">
+         <ul class="breadcrumb">
+            <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Trang chủ</a> <span class="divider"></span></li>
+            <li>Phòng khách</li>
+         </ul>
+      </div>
+      <!-- end breadcrumbs -->
+      <div class="product-info">
+         <div class="row">
+            <div class="col-md-6 col-sm-12">
+               <section>
+                  <div class="image large-image">
+                     <img class="cloudzoom img-responsive"
+                     alt = "Thumbelina Zoom Image"
+                     id ="zoom1" src="image/imgtab1.jpg"
+                     data-cloudzoom='
+                     zoomImage:"image/image4.jpg",
+                     zoomPosition: "inside",
+                     zoomOffsetX: 0,
+                     zoomFlyOut: false,
+                     maxMagnification: 4'
+                     >
+                  </div>
+                  <div class="image-additional">
+                     <img class="cloudzoom-gallery cloudzoom-gallery-active" src="image/tab1.jpg" data-cloudzoom="
+                     useZoom: '#zoom1',
+                     image:'image/imgtab1.jpg',
+                     zoomImage:'image/image4.jpg'
+                     ">
+                     <img class="cloudzoom-gallery" src="image/tab2.jpg" data-cloudzoom="
+                     useZoom: '#zoom1',
+                     image:'image/imgtab2.jpg',
+                     zoomImage:'image/image4.jpg'
+                     ">
+                     <img class="cloudzoom-gallery" src="image/tab3.jpg" data-cloudzoom="
+                     useZoom: '#zoom1',
+                     image:'image/imgtab3.jpg',
+                     zoomImage:'image/image4.jpg'
+                     ">
+                  </div>
+                  <script type="text/javascript">
+                           CloudZoom.quickStart(); // cz
+                           JetZoom.quickStart();
+                           StarZoom.quickStart();
+
+                               // The following piece of code can be ignored.
+                               if (window.location.hostname.indexOf("starplugins.") != -1) {
+                                  var _gaq = _gaq || [];
+                                  _gaq.push(['_setAccount', 'UA-254857-7']);
+                                  _gaq.push(['_trackPageview']);
+                                  (function() {
+                                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                                 })();
+                              }
+
+                           </script>
+                        </section>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-6">
+
+                        <h1 itemprop="name" class="name_product">Thiết bị Bật tắt đèn thông minh SH-D2</h1>
+                        <div class="box-price-titrang">
+                           <div class="row">
+                              <div class="giasp col-xs-8 col-sm-6">
+                                 <strong class="sale-price" itemprop="price">1.350.000₫</strong>
+                              </div>
+                              <div class="col-xs-4 col-sm-6">
+                                 <ul class="tinhtrang">
+                                    <li><span class="hidden-xs">Tình trạng: </span>
+                                       <span class="green bl">Còn hàng</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="">
+                           <ul class="list_thongtin">
+                              <li><span>Nhà sản xuất:</span> <a href="#">SH-D2</a></li>
+                           </ul>
+                        </div>
+                        <div class="line"></div>
+                        <div class="motanganproduct">
+                           <div class="tieude_motanganproduct">MÔ tả:</div>
+                           <div class="than_motanganproduct">
+                              Thiết bị Bật tắt đèn thông minh SH-D2 hoạt động bằng công nghệ cảm ứng hồng ngoại thân nhiệt. Khi người sử dụng trong vùng cảm ứng, thiết bị sẽ tự động bật đèn và tắt đèn khi không có người. Thiết bị được tích hợp tính năng cảm...
+                           </div>
+                        </div>
+                        <div class="detailcall">
+                           <div class="callphoneicon">
+                              <i class="fa fa-phone"></i>
+                           </div>
+                           <a href="#">
+                              đặt mua qua điện thoại (8h00 - 20h00) <br>
+                              <span>(04) 33 653 666</span>
+                           </a>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="line"></div>
+
+                     </div>
+                  </div>
+                  <div class="row">
+                   <div class="col-md-9">
+                      <div class="tabthongtinchitiet">
+                        <div class="tabs">
+                           <ul class="nav nav-tabs tabs-title" id="myTab">
+                              <li class="active"><a href="#home">Thông tin sản phẩm</a></li>
+                              <li class=""><a href="#more">Vận chuyển</a></li>
+                              <li class=""><a href="#more2">Hướng dẫn mua hàng</a></li>
+                           </ul>
+                           <div class="tab-content tab-body">
+                              <div class="tab-pane active" id="home">
+                                 <p>Thiết bị Bật tắt đèn thông minh SH-D2 hoạt động bằng công nghệ cảm ứng hồng ngoại thân nhiệt. Khi người sử dụng trong vùng cảm ứng, thiết bị sẽ tự động bật đèn và tắt đèn khi không có người. Thiết bị được tích hợp tính năng cảm biến ánh sáng và khả năng hiệu chỉnh linh hoạt thời gian tắt tự động sau khi không có người sử dụng. Thiết bị còn được tích hợp tính năng công tắc thông minh để hoạt động theo kịch bản của người sử dụng. Tính năng thông minh của thiết bị mang lại sự tiện nghi, an toàn và tiết kiệm điện cho người sử dụng.</p>
+                                 <p style="text-align: center;"><img src="image/tabimg.jpg"></p>
+                                 <h3>Ứng dụng:</h3>
+                                 <p>Thiết bị phù hợp để bật tắt đèn tự động cho nhiều vị trí như: Văn phòng, nhà máy, phòng khách, phòng ngủ, cổng, ban công, phòng vệ sinh, khu công cộng…<br>
+                                    &nbsp;
+                                 </p>
+                                 <h3>Thông số kỹ thuật:</h3>
+                                 <p>Điện áp: 100 - 240V; 50/60Hz<br>
+                                    Điều khiển thông minh bằng chip vi xử lý<br>
+                                    Có tính năng công tắc thông minh cho phép bật đèn cưỡng bức, tắt đèn cưỡng bức và cài đặt các kịch bản.<br>
+                                    Công suất chịu tải: Đèn sợi đốt - tối đa 800W; Đèn huỳnh quang - tối đa 350W; Đèn LED - tối đa 350W<br>
+                                    Khoảng cách cảm ứng: tối đa 5m<br>
+                                    Vùng cảm ứng khả dụng: tối đa 20m2<br>
+                                    Thời gian tắt tự động sau khi không có người: 10 giây - 60 phút tùy chỉnh<br>
+                                    Thời gian tắt cưỡng bức: 30 phút - 12 tiếng tùy chỉnh<br>
+                                    Chế độ cảm biến ánh sáng: Ngày / đêm tùy chỉnh<br>
+                                    Nhiệt độ hoạt động: 0 - 50 độ C<br>
+                                    Kích thước (D x H): 90 x 38mm<br>
+                                    Trọng lượng: 90 gram<br>
+                                    Bảo hành: 12 tháng
+                                 </p>
+                              </div>
+                              <div class="tab-pane" id="more">
+                                 Bước 1: Việc đầu tiên nên lấy hết tất cả những thực phẩm trong tủ lạnh ra
+                                 Bạn cần chắc chắn rằng tất cả những thực phẩm trong tủ phải được lấy ra ngoài hết nếu không trong quá trình di chuyển những thực phẩm đó có thể rơi, đỗ vỡ và có thể làm cho tủ lạnh của bạn bị hỏng hóc.
+                                 Bước 2: Lấy hết khay kệ bên trong tủ ra ngoài
+                                 Việc làm này vô cùng cần thiết bởi vì khi bạn tháo khay kệ ra ngoài giúp cho tủ lạnh giảm được trọng lượng mà còn giúp cho khay kệ không bị xáo trộn trong quá trình vận chuyển.
+                                 Lưu ý: Bạn phải chắc chắn rằng khi tháo khay ra khỏi tủ thì việc lắp vào cũng sẽ đơn giản như lúc bạn tháo chúng ta.
+                                 Bước 3: Rút phích cắm tủ lạnh
+                                 Bạn phải chắc chắn rằng phích cắm điện của tủ phải được rút ra khỏi ổ cắm nếu không sẽ gây nguy hiểm.
+                                 Lưu ý: Sau khi rút phích cắm ra bạn nên quắn nó lại thật gọn để tránh hiện tượng nó sẽ cản trở bạn khi bạn di chuyển tủ lạnh.
+                                 Bước 4: Xả tuyết và làm khô tủ trước khi di chuyển
+                                 Công việc này khá tốn nhiều thời gian nên bạn cần phải thực hiện trước khi dọn nhà ít nhất là 6 đến 8 tiếng. Việc di chuyển tủ trong khi còn băng hay đọng nước sẽ vô cùng nguy hiểm bởi vì trong quá trình di chuyển tủ sẽ bị rung lắc khá mạnh và nước có thể vô tình vào được những phần hỡ trong thiết bị.
+                                 Bước 5: Cột chặt cố định cửa tủ lạnh lại
+                                 Bạn nên sử dụng một sợi dây lớn để tránh chúng có thể vô tình bung ra ngoài và gây hại cho chính chiếc tủ lạnh của bạn. Tuy nhiên hãy cẩn thận không nên buộc các cánh cửa tủ quá chặt vì có thể bạn sẽ khó mở chúng ra sau khi quá trình vận chuyển kết thúc.
+                                 Lưu ý: Trước khi thực hiện bước cố định cửa tủ bạn cần phải lưu ý thực hiện tốt bước 4 bởi vì nếu bạn không lau thật khô tủ thì trong điều kiện đóng chật tủ sẽ tạo điều kiện thuận lợi cho vi khuẩn và nấm mốc phát triển bên trong của tủ lạnh.
+                                 Bước 6: Di chuyển tủ nhẹ nhàng và an toàn
+                                 Bạn cần chú ý di chuyển tủ thật nhẹ nhàng tránh tình trạng va chạm gây trầy xước hay hỏng hóc cho tủ.Sử dụng xe đẩy có độ lớn tương đương tủ để di chuyển
+                                 Lưu ý: Trong quá trình di chuyển nếu có đi lên hoặc xuống cầu thang bạn cần chú ý nên có sự hỗ trợ từ ít nhất 2 người.
+                                 Bước 7: Đặt tủ lạnh vào vị trí mới và cắm nguồn tiếp tục sử dụng
+                                 Sau khi quá trình di chuyển tủ lạnh của bạn kết thúc, bạn có thể đặt chiếc tủ lạnh vào vị trí mà bạn đã chọn từ trước và có thể sử dụng lại như củ.
+                                 Lưu ý: Bạn không nên cắm điện vào và sử dụng tủ ngay, tốt nhất hãy để tủ tại vị trí mới khoảng 2 đến 3 giờ rồi hãy cắm điện vào như vậy sẽ đảm bảo hơn về yếu tố an toàn cũng như đề phòng trường hợp bạn muốn thay đổi vị trí đặt tủ.
+                                 Chú ý: Không nên tự một mình di chuyển tủ vì tủ lạnh thường khá nặng nếu nó rơi có thể gây tổn thương cho bạn và hãy đọc kỹ hướng dẫn sử dụng của tủ trước khi di chuyển tủ lạnh.
+                              </div>
+                              <div class="tab-pane" id="more2">
+                                 Bước 1: Tìm sản phẩm cần mua
+                                 Bạn có thể tìm kiếm sản phẩm theo nhiều cách:
+                                 - Click vào "Điện thoại di động" để vào trang ngành hàng điện thoại sau đó có thể tìm sản phẩm từ trên xuống dưới theo các cách xem ( giá từ thấp đến cao | giá từ cao đến thấp...), hoặc theo tiêu chí lọc, theo tính năng sản phẩm.
+                                 Bạn có thể tìm kiếm sản phẩm theo nhiều cách:
+                                 - Click vào "Điện thoại di động" để vào trang ngành hàng điện thoại sau đó có thể tìm sản phẩm từ trên xuống dưới theo các cách xem ( giá từ thấp đến cao | giá từ cao đến thấp...), hoặc theo tiêu chí lọc, theo tính năng sản phẩm.
+                                 Bạn có thể tìm kiếm sản phẩm theo nhiều cách:
+                                 - Click vào "Điện thoại di động" để vào trang ngành hàng điện thoại sau đó có thể tìm sản phẩm từ trên xuống dưới theo các cách xem ( giá từ thấp đến cao | giá từ cao đến thấp...), hoặc theo tiêu chí lọc, theo tính năng sản phẩm.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                   <div class="" id="related_products">
+                      <div class="row">
+                        <div class="block-sidebar-product">
+                         <div class="col-sm-12">
+                           <div class="block-sidebar-product-title">
+                              <h2>Sản phẩm liên quan</h2>
+                           </div>
+                        </div>
+                        <div class="block-sidebar-product-content">
+                           <div class="col-sm-6 col-md-12">
+                              <div class="item biz-qv-image">
+                                 <div class="item-inner transition">
+                                    <span class="label label-sale">Sale</span>
+                                    <div class="image">
+                                       <a class="lt-image" href="/ban-lam-viec-cao-cap" target="_self" title="Bàn làm việc cao cấp">
+                                          <img src="image/sp001.jpg" class="img-1" alt="Bàn làm việc cao cấp">
+
+                                       </a>
+                                    </div>
+                                    <!-- /.image -->
+                                    <div class="caption">
+                                       <h4>
+                                          <a href="/ban-lam-viec-cao-cap" title="Bàn làm việc cao cấp" target="_self">
+                                             Bàn làm việc cao cấp
+                                          </a>
+                                       </h4>
+                                       <p class="price">
+                                          <span class="price-old">1.760.000₫</span>
+                                          <span class="price-new">1.600.000₫</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!-- /.item-inner -->
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-12">
+                              <div class="item biz-qv-image">
+                                 <div class="item-inner transition">
+                                    <span class="label label-sale">Sale</span>
+                                    <div class="image">
+                                       <a class="lt-image" href="/ban-lam-viec-cao-cap" target="_self" title="Bàn làm việc cao cấp">
+                                          <img src="image/sp002.jpg" class="img-1" alt="Bàn làm việc cao cấp">
+
+                                       </a>
+                                    </div>
+                                    <!-- /.image -->
+                                    <div class="caption">
+                                       <h4>
+                                          <a href="/ban-lam-viec-cao-cap" title="Bàn làm việc cao cấp" target="_self">
+                                             Bàn làm việc cao cấp
+                                          </a>
+                                       </h4>
+                                       <p class="price">
+                                          <span class="price-old">1.760.000₫</span>
+                                          <span class="price-new">1.600.000₫</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!-- /.item-inner -->
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-12">
+                              <div class="item biz-qv-image">
+                                 <div class="item-inner transition">
+                                    <span class="label label-sale">Sale</span>
+                                    <div class="image">
+                                       <a class="lt-image" href="/ban-lam-viec-cao-cap" target="_self" title="Bàn làm việc cao cấp">
+                                          <img src="image/sp003.jpg" class="img-1" alt="Bàn làm việc cao cấp">
+
+                                       </a>
+                                    </div>
+                                    <!-- /.image -->
+                                    <div class="caption">
+                                       <h4>
+                                          <a href="/ban-lam-viec-cao-cap" title="Bàn làm việc cao cấp" target="_self">
+                                             Bàn làm việc cao cấp
+                                          </a>
+                                       </h4>
+                                       <p class="price">
+                                          <span class="price-old">1.760.000₫</span>
+                                          <span class="price-new">1.600.000₫</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!-- /.item-inner -->
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-12">
+                              <div class="item biz-qv-image">
+                                 <div class="item-inner transition">
+                                    <span class="label label-sale">Sale</span>
+                                    <div class="image">
+                                       <a class="lt-image" href="/ban-lam-viec-cao-cap" target="_self" title="Bàn làm việc cao cấp">
+
+                                          <img src="image/sp004.jpg" class="img-1" alt="Bàn làm việc cao cấp">
+                                       </a>
+                                    </div>
+                                    <!-- /.image -->
+                                    <div class="caption">
+                                       <h4>
+                                          <a href="/ban-lam-viec-cao-cap" title="Bàn làm việc cao cấp" target="_self">
+                                             Bàn làm việc cao cấp
+                                          </a>
+                                       </h4>
+                                       <p class="price">
+                                          <span class="price-old">1.760.000₫</span>
+                                          <span class="price-new">1.600.000₫</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!-- /.item-inner -->
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-12">
+                              <div class="item biz-qv-image">
+                                 <div class="item-inner transition">
+                                    <span class="label label-sale">Sale</span>
+                                    <div class="image">
+                                       <a class="lt-image" href="/ban-lam-viec-cao-cap" target="_self" title="Bàn làm việc cao cấp">
+                                          <img src="image/sp001.jpg" class="img-1" alt="Bàn làm việc cao cấp">
+
+                                       </a>
+                                    </div>
+                                    <!-- /.image -->
+                                    <div class="caption">
+                                       <h4>
+                                          <a href="/ban-lam-viec-cao-cap" title="Bàn làm việc cao cấp" target="_self">
+                                             Bàn làm việc cao cấp
+                                          </a>
+                                       </h4>
+                                       <p class="price">
+                                          <span class="price-old">1.760.000₫</span>
+                                          <span class="price-new">1.600.000₫</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!-- /.item-inner -->
+                              </div>
+                           </div>
+                           <div class="col-sm-6 col-md-12">
+                              <div class="item biz-qv-image">
+                                 <div class="item-inner transition">
+                                    <span class="label label-sale">Sale</span>
+                                    <div class="image">
+                                       <a class="lt-image" href="/ban-lam-viec-cao-cap" target="_self" title="Bàn làm việc cao cấp">
+                                          <img src="image/sp002.jpg" class="img-1" alt="Bàn làm việc cao cấp">
+
+                                       </a>
+                                    </div>
+                                    <!-- /.image -->
+                                    <div class="caption">
+                                       <h4>
+                                          <a href="/ban-lam-viec-cao-cap" title="Bàn làm việc cao cấp" target="_self">
+                                             Bàn làm việc cao cấp
+                                          </a>
+                                       </h4>
+                                       <p class="price">
+                                          <span class="price-old">1.760.000₫</span>
+                                          <span class="price-new">1.600.000₫</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <!-- /.item-inner -->
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div><!--row -->
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+</div>
+<div class="clearfix"></div>
+<!--End San Pham -->
+      <!--  </div>
+   </div> -->
+   <div class="clearfix"></div>
+   <!--container-flu-->
+   <a href="#0" class="cd-top cd-is-visible">Top</a>
+   <script>
+      $(document).ready(function($){
+            // browser window scroll (in pixels) after which the "back to top" link is shown
+            var offset = 300,
+               //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+               offset_opacity = 2000,
+               //duration of the top scrolling animation (in ms)
+               scroll_top_duration = 700,
+               //grab the "back to top" link
+               $back_to_top = $('.cd-top');
+
+            //hide or show the "back to top" link
+            $(window).scroll(function(){
+               ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+               if( $(this).scrollTop() > offset_opacity ) {
+                  $back_to_top.addClass('cd-fade-out');
+               }
+            });
+
+            //smooth scroll to top
+            $back_to_top.on('click', function(event){
+               event.preventDefault();
+               $('body,html').animate({
+                  scrollTop: 0 ,
+               }, scroll_top_duration
+               );
+            });
+
+         });
+      jQuery(document).ready(function()
+      {
+         $('#myTab a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+         })
+      });
+   </script>
+   <div class="footermap hidden-xs hidden-sm">
+      <div class="so-maps">
+         <div class="module google-map">
+            <div class="modcontent clearfix">
+               <div class="contact">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11593.01555357949!2d-80.4901947!3d43.4135219!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1407212089068"></iframe>
+                  <div class="contact-info">
+                     <div class="shop-name">
+                        <div class="icon"> </div>
+                        <h2>Megashop</h2>
+                        <label>NỘI THẤT HIỆN ĐẠI</label>
+                     </div>
+                     <div class="address">
+                        <div class="icon"><i class="fa fa-map-marker"></i></div>
+                        <label>442 Đội Cấn, Ba Đình , Hà Nội</label>
+                     </div>
+                     <div class="email">
+                        <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                        <label>Email: <a href="mail:Support@bizweb.vn">Support@bizweb.vn</a></label>
+                     </div>
+                     <div class="phone">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                        <label>Phone: 0902.068.068</label>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="footertop">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12 col-sm-6 social-box">
+               <span>FOLLOW US</span>
+               <ul class="social-block ">
+                  <li class="facebook"><a class="_blank" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a class="_blank" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li class="rss"><a class="_blank" href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
+                  <li class="google_plus"><a class="_blank" href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="pinterest"><a class="_blank" href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+               </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+               <ul class="list-ft">
+                  <li class="col-xs-6 "><a href="/">Trang chủ</a></li>
+                  <li class="col-xs-6 "><a href="/gioi-thieu">Giới thiệu</a></li>
+                  <li class="col-xs-6 "><a href="/collections/all">Sản phẩm</a></li>
+                  <li class="col-xs-6 "><a href="/thiet-ke-noi-that">Thiết kế nội thất</a></li>
+                  <li class="col-xs-6 "><a href="/tin-tuc">Tin tức</a></li>
+                  <li class="col-xs-6 "><a href="/lien-he">Liên hệ</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+               <h3 class="title-f">Hỗ trợ</h3>
+               <ul class="list-f">
+                  <li><a href="/search">Tìm kiếm</a></li>
+                  <li><a href="/tu-van-thiet-ke-tu-van-thiet-ke">Tư vấn thiết kế</a></li>
+                  <li><a href="/cham-soc-khach-hang">Chăm sóc khách hàng</a></li>
+                  <li><a href="/kiem-tra-don-hang">Kiểm tra đơn hàng</a></li>
+               </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+               <h3 class="title-f">Hướng dẫn</h3>
+               <ul class="list-f">
+                  <li><a href="/huong-dan-mua-hang">Hướng dẫn mua hàng</a></li>
+                  <li><a href="/giao-nhan-va-thanh-toan">Giao nhận và thanh toán</a></li>
+                  <li><a href="/doi-tra-va-bao-hanh">Đổi trả và bảo hành</a></li>
+                  <li><a href="/dang-ki-thanh-vien">Đăng kí thành viên</a></li>
+               </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+               <h3 class="title-f">Chính sách</h3>
+               <ul class="list-f">
+                  <li><a href="/chinh-sach-thanh-toan">Chính sách thanh toán</a></li>
+                  <li><a href="/chinh-sach-van-chuyen">Chính sách vận chuyển</a></li>
+                  <li><a href="/chinh-sach-doi-tra">Chính sách đổi trả</a></li>
+                  <li><a href="/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+               </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+               <h3 class="title-f">Tại sao chọn chúng tôi</h3>
+               <ul class="list-f">
+                  <li><a href="/doi-ngu-chuyen-nghiep">Đội ngũ chuyên nghiệp</a></li>
+                  <li><a href="/gia-ca-hop-ly">Giá cả hợp lý</a></li>
+                  <li><a href="/kinh-nghiem-tren-20-nam">Kinh nghiệm trên 20 năm</a></li>
+                  <li><a href="/dam-bao-tien-do">Đảm bảo tiến độ</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="copy text-center">
+         © Bản quyền thuộc về Gold River | Cung cấp bởi <a href="http://bizweb.vn">Bizweb</a>
+      </div>
+   </div>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.js"></script>
+</body>
+</html>
